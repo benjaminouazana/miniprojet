@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  front-family: "raleway", sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.separator{
+height: 3px;
+width: 5%;
+border: none;
+box-shadow: none;
+background-color: blue;
+}
+
+.header {
+  background-color: orange;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a {
+  color: white;
+  margin-right: 20px;
+}
+
+.menu a:hover {
+  color: blue
+}
+
+.banner {
+  width: 100px;
+
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+  .inner-banner {
+    position: absolute;
+    top: 240px;
+    width: 100%;
+    text-align: center;
+  }
+
+.inner-banner h1 {
+    color: orange;
+    text-shadow: 240px;
+  }
+
+p {
+  height: 50px;
+}
+
+  .inner-banner .btn-custom {
+    background-color: orange;
+    color: white;
+  }
+
+
+.inner-banner .btn-custom:hover{
+  background-color: orange;
+}
+
+#about {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.about article {
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+.about article h2{
+  text-align: center;
+}
+
+.portfolio {
+  background-color: grey;
+  height: 700px;
+}
+
+#portfolio {
+  text-align: center;
+}
+
+.portfolio .item-folio {
+  height: 240px;
+  background-color: blue;
+}
+
+.footer {
+  background-color: blue;
+  height: 600px;
+}
+
+#contact {
+  color : white;
+  text-align: center;
+}
+
+.formulaireContact {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
